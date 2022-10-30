@@ -18,27 +18,28 @@
           id="name"
           type="text"
           name="name"
+          required
           placeholder="enter name"
         /><br />
 
         <label id="email-label" for="email">Email</label><br />
         <input
           id="email"
-          type="text"
+          type="email"
           name="email"
           placeholder="enter email"
           required
         /><br />
 
-        <label id="number-label" for="number">Age</label><br />
+        <label id="number" for="number">Age</label><br />
         <input
-          id="age"
+          id="number"
           type="number"
           name="age"
           placeholder="18"
           required
-          min="18"
-          max="50"
+          min="2"
+          max="3"
         /><br />
         <label for="dropdown"
           >Which Option best describes your current role?</label
@@ -64,7 +65,7 @@
 
         <textarea id="textarea" name="textarea" rows="4" cols="50"> </textarea>
         <br />
-        <button type="submit" value="Submit">Submit</button>
+        <button id="submit" type="submit" value="Submit">Submit</button>
       </form>
     </div>
   </body>
