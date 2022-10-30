@@ -12,16 +12,19 @@
   <div class="form-div">
     <form id="survey-form">
       <label id="name-label" for="name">Name</label><br/>
-      <input id="name" type="text" name="name">
+      <input id="name" type="text" name="name" placeholder="enter name">
 
       <label id="email-label" for="email">Email</label><br/>
-      <input id="email" type="text" name="email" required>
+      <input id="email" type="text" name="email" placeholder="enter email" required>
 
-      <label id="number-label" for="number">Number</label><br/>
-      <input id="number" type="number" name="number" required min="18" max="50">
-
-   
-
+      <label id="number-label" for="number">Age</label><br/>
+      <input id="age" type="number" name="age" placeholder="18" required min="18" max="50">
+      <label for="dropdown">Which Option best describes your current role?</label>
+        <select id="dropdown" name="role">
+      <option value="Student">Student</option>
+      <option value="Teacher">Teacher</option>
+      <option value="Other">Other</option>
+    </select>
 
     </form>
   </div>
